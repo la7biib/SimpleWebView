@@ -1,0 +1,1181 @@
+html,body {
+    background: url(../img/BG.svg) top center no-repeat #426F90;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.doc-header {
+    position: relative;
+    z-index: 200;
+}
+
+.headerGraphics {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 302px;
+    margin-left: -151px;
+}
+a{
+    outline: none !important;
+}
+
+.logoWrap {
+    width: 360px;
+    height: 165px;
+    z-index: 250;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    padding-left: 20px;
+    top: -1px;
+    background: url(../img/logoWrap.png) center center no-repeat;
+}
+
+.bgCirclesWrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.suny{
+    position: absolute;
+    left: 50%;
+    margin-left: 325px;
+    top: 90px;
+    z-index: 20;
+}
+.suny2{
+    position: absolute;
+    right: 30px;
+    top: 90px;
+    z-index: 20;
+}
+.gHat{
+    position: absolute;
+    left: 50%;
+    margin-left: 325px;
+    top: 470px;
+    z-index: 20;
+}
+.gHat2{
+    position: absolute;
+    left: 50%;
+    margin-left: 325px;
+    bottom: 50px;
+    z-index: 20;
+}
+.boat{
+    position: absolute;
+    left: 50%;
+    margin-left: 325px;
+    top: 285px;
+    z-index: 20;
+}
+.tree{
+    position: absolute;
+    left: 50%;
+    margin-left: -350px;
+    top: 200px;
+    z-index: 20;
+}
+.tree2{
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    bottom: -10px;
+    z-index: 20;
+}
+.fa-spin.bgCircles {
+    -webkit-animation: fa-spin 20s infinite linear;
+    animation: fa-spin 20s infinite linear
+}
+
+.bgCircles {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spinner {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.astronot {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.astronot.style2{
+    bottom:65px;
+}
+.logo {
+    display: block;
+}
+.logo img{
+    max-width: 60%;
+}
+
+.homeLinksGrid {
+    position: relative;
+    z-index: 100;
+}
+
+.homeLinksGrid a {
+    width: 50%;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size:36px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 100;
+}
+.homeLinksGrid a span{
+    padding: 0px 10px;
+    transition:All 0.2s ease;
+    -webkit-transition:All 0.2s ease;
+    -moz-transition:All 0.2s ease;
+    -o-transition:All 0.2s ease;
+}
+.homeLinksGrid a:hover span{
+    
+    border: 3px solid transparent;
+    
+    -moz-border-image: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(167,242,220,1) 17%, rgba(159,243,180,1) 30%, rgba(203,253,158,1) 39%, rgba(216,255,152,1) 47%, rgba(255,222,135,1) 60%, rgba(255,187,139,1) 75%, rgba(255,232,220,1) 89%, rgba(255,255,255,1) 100%);
+    -webkit-border-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(17%,rgba(167,242,220,1)), color-stop(30%,rgba(159,243,180,1)), color-stop(39%,rgba(203,253,158,1)), color-stop(47%,rgba(216,255,152,1)), color-stop(60%,rgba(255,222,135,1)), color-stop(75%,rgba(255,187,139,1)), color-stop(89%,rgba(255,232,220,1)), color-stop(100%,rgba(255,255,255,1)));
+    -webkit-border-image: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(167,242,220,1) 17%,rgba(159,243,180,1) 30%,rgba(203,253,158,1) 39%,rgba(216,255,152,1) 47%,rgba(255,222,135,1) 60%,rgba(255,187,139,1) 75%,rgba(255,232,220,1) 89%,rgba(255,255,255,1) 100%);
+    border-image: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(167,242,220,1) 17%,rgba(159,243,180,1) 30%,rgba(203,253,158,1) 39%,rgba(216,255,152,1) 47%,rgba(255,222,135,1) 60%,rgba(255,187,139,1) 75%,rgba(255,232,220,1) 89%,rgba(255,255,255,1) 100%);
+   border-image-slice: 1;
+
+
+}
+.homeLinksGrid a#Homelink1{
+    left: 0;
+    top: 0;
+    width: 383px;
+    height: 184px;
+    padding-left: 125px;
+    padding-top: 75px;
+    
+}
+.homeLinksGrid a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-repeat: no-repeat !important;
+    left: 0;
+}
+.homeLinksGrid a#Homelink1::before{
+    background: url(../img/maGallery.png);
+}
+
+
+.homeLinksGrid a#Homelink2{
+    left: 0;
+    top: 185px;
+    width: 419px;
+    height: 210px;
+    padding-left: 125px;
+    padding-top: 75px;
+    
+}
+.homeLinksGrid a#Homelink2::before{
+    background: url(../img/mesCours.png);
+}
+
+.homeLinksGrid a#Homelink3{
+    right: 0;
+    top: -40px;
+    width: 470px;
+    height: 276px;
+    padding-left: 0;
+    padding-top: 125px;
+    
+}
+.homeLinksGrid a#Homelink3::before{
+    background: url(../img/monTemps.png);
+}
+
+.homeLinksGrid a#Homelink4{
+    right: 130px;
+    top: 236px;
+    width: 382px;
+    height: 222px;
+    padding-left: 0;
+    padding-top: 100px;
+    
+}
+.homeLinksGrid a#Homelink4::before{
+    background: url(../img/monAgenda.png);
+}
+
+a.forgotPass{
+    background: #b8dae8;
+    font-size: 20px;
+    color: #3a4d55;
+    padding: 10px 25px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 20px 0 0;
+    text-decoration: none;
+    font-size: bold;
+    text-transform: uppercase;
+}
+.pageContent{
+    position: relative;
+    padding-top: 180px;
+}
+.dashbordPage.pageContent{
+    padding-top: 140px;
+}
+.fancyMenu.pageContent{
+    padding-top: 0px;
+}
+.pageContent.mesCoursePage{
+    padding-top: 220px;
+}
+.homeLinksGrid > a{
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.loginpage form{
+    position: relative;
+    text-align: center;
+    z-index: 100;
+}
+.loginpage input[type="text"],.loginpage input[type="password"],.loginpage input[type="email"]{
+    height: 75px;
+    max-width: 380px;
+    width: 100%;
+    display: inline-block;
+    background: none;
+    border: 7px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 16px;
+    font-size: 18px;
+    outline: none;
+}
+
+input::-webkit-input-placeholder{
+    color:#333;
+}
+input:-moz-placeholder {
+    color:#333;
+}
+
+.loginpage button,.loginpage input[type="submit"]{
+    font-size: 30px;
+    color: #062639;
+    border: none;
+    padding:15px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top:10px; 
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(215,215,215,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(215,215,215,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(215,215,215,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7d7d7',GradientType=0 );
+
+}
+
+.loginpage button:hover,.loginpage input[type="submit"]:hover{
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0.8) 0%, rgba(215,215,215,0.8) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(215,215,215,0.8)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(215,215,215,0.8) 100%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(215,215,215,0.8) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0.8) 0%,rgba(215,215,215,0.8) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0.8) 0%,rgba(215,215,215,0.8) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7d7d7',GradientType=0 );
+}
+
+
+/*===================================
+customeField
+===============================*/
+
+.zindex{
+	z-index:50;
+}
+
+.customeField input[type="radio"],.customeField input[type="checkbox"]{
+    display: none;
+}
+.customeField .customeFieldInner{
+    position: relative;
+    display: inline-block;
+}
+.customeField input[type="radio"] + label,.customeField input[type="checkbox"] + label{
+    padding-left: 50px;
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    color: #000;
+}
+
+.customeField input[type="radio"] + label span,.customeField input[type="checkbox"] + label span{
+    background: #fff;
+    border: 1px solid #ddd;
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.customeField label i{
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    background: #fff;
+    border-radius: 50%;
+}
+.customeField input[type="checkbox"] + label span i{
+    left: 2px;
+    top: 2px;
+    background: none;
+    border-radius: 0;
+}
+
+.customeField input[type="radio"]:checked + label span i,.customeField input[type="checkbox"]:checked + label span i{
+    background:#63c693; 
+}
+.customeField input[type="radio"]:checked + label span{
+    background: #fff;
+}
+
+.headerLinks{
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 20px;
+    text-align: right;
+}
+.headerLinks ul{
+    max-width: 765px;
+    width: 100%;
+    margin: auto;
+}
+.headerLinks.style2 ul{
+    max-width: 90%;
+}
+.headerLinks li{
+    display: inline-block;
+}
+.headerLinks a{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.headerLinks a img{
+    margin-right: 10px;
+}
+/*=========================
+Mes Course
+==========================*/
+.mesCourse{
+    width: 100%;
+    max-width: 765px;
+    margin: auto;
+}
+.mesCourse .aCourse{
+    width: 33.333334%;
+    float: left;
+    text-align: center;
+    position: relative;
+    z-index: 20;
+    padding: 10px;
+}
+.mesCourse .aCourse .aCourseInner{
+    background: #09354c;
+    color: #fff;
+    font-size: 24px;
+    line-height: 34px;
+    height: 240px;
+    padding-top: 50px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.mesCourse .aCourse:nth-child(2) .aCourseInner{
+    background: #7ebb43;
+    padding-top: 70px;
+}
+.mesCourse .aCourse:nth-child(2) a{
+    background: #579431
+}
+.mesCourse .aCourse:nth-child(3) a{
+    background: #f49000
+}
+.mesCourse .aCourse:nth-child(3) .aCourseInner{
+    background: #f2c449;
+    padding-top: 20px;
+}
+
+.themenu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 30;
+}
+.alogo{
+    position: absolute;
+    left: 50px;
+    top: 2px;
+    
+}
+.helpIcon{
+    position: absolute;
+    right: 20px;
+    bottom: -5px;
+}
+.themenu ul{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+.themenu li{
+    display: inline-block;
+}
+.themenu li a{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #33363b;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+.themenu li a:hover::after,.themenu li.active a::after{
+    content: "";
+    height: 4px;
+    background: #7ebb44;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.aCourse a{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background: #000;
+    background: rgba(0,0,0,0.3);
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+.aCourse .k1{
+    position: absolute;
+    left: -60px;
+    top: 80px;
+}
+.aCourse .k2{
+    position: absolute;
+    right: 30px;
+    top: -90px;
+}
+.aCourse .k3{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -32px;
+}
+.aCourse .k4{
+    position: absolute;
+    right: -50px;
+    top: 80px;
+}
+.aCourse .k5{
+    position: absolute;
+    bottom: -120px;
+    left: 50%;
+    margin-left: -72px;
+}
+/*==============
+Deshboard
+==============*/
+.dashBordMenu{
+    z-index: 28;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 90px;
+    background: rgb(16,69,91);
+    background: -moz-linear-gradient(top,  rgba(16,69,91,1) 51%, rgba(23,85,22,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(51%,rgba(16,69,91,1)), color-stop(100%,rgba(23,85,22,1)));
+    background: -webkit-linear-gradient(top,  rgba(16,69,91,1) 51%,rgba(23,85,22,1) 100%);
+    background: -o-linear-gradient(top,  rgba(16,69,91,1) 51%,rgba(23,85,22,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(16,69,91,1) 51%,rgba(23,85,22,1) 100%);
+    background: linear-gradient(to bottom,  rgba(16,69,91,1) 51%,rgba(23,85,22,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10455b', endColorstr='#175516',GradientType=0 );
+
+}
+.thisUser{
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.dash-trigger{
+  position: relative;
+    background: #FFFFFF;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.dash-trigger .theCount{
+    position: absolute;
+    display: block;
+    width: 16px;
+    height: 16px;
+    color: #fff;
+    background: #e23716;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 11px;
+    right: 20px;
+    top: 5px;
+}
+.dash-button{
+    position: relative;
+}
+.dash-hover::before{
+    font-family:'FontAwesome';
+    display: inline-block;
+    content:"\f0da";
+    color: #cad4e0;
+    left: 0;
+    top: 25px;
+    font-size: 30px;
+    position: absolute;
+}
+.dash-hover{
+    position: absolute;
+    left: 100%;
+    width: 155px;
+    padding: 5px;
+    border-radius: 10px;
+    background: #e4e6ea;
+    top: -15px;
+    min-height: 90px;
+    text-align: center;
+    display: none;
+}
+.active .dash-hover{
+    display: block;
+}
+.dash-hover a{
+    display: inline-block;
+    margin: 5px;
+}
+.dash-hover a img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/*===================================
+circular Menu
+====================================*/
+.circularMenu{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    margin-left: -275px;
+    top: 40px;
+}
+.fancyMenu.pageContent{
+    height: 550px;
+    position: relative;
+    z-index: 50;
+    max-width: 980px;
+}
+.circularMenu a{
+    display:block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+.circularMenu a img{
+    max-width: 100%;
+}
+.circularMenu a span{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.circularMenu a.leftYellow span,.circularMenu a.rightPink span{
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.circularMenu a.leftYellow span{
+    left: 30px;
+}
+.circularMenu a.rightPink span{
+    left: auto;
+    right: 25px;
+}
+.circularMenu a.topBlue span,.circularMenu a.bottomGreen span{
+    width: 100%;
+    text-align: center;
+}
+.circularMenu a.bottomGreen span{
+    top: auto;
+    bottom: 40px;
+}
+.circularMenu a.topBlue span{
+    top: 40px;
+}
+.topBlue{
+    width: 380px;
+    height: 165px;
+    position: absolute;
+    left: 50%;
+    margin-left: -190px;
+    top: 0;
+}
+.leftYellow{
+    width: 166px;
+    height: 381px;
+    position: absolute;
+    left: 0;
+    top: 85px;
+}
+.rightPink{
+    width: 165px;
+    height: 378px;
+    position: absolute;
+    right:5px;
+    top: 85px;
+}
+.bottomGreen{
+    left: 50%;
+    margin-left: -190px;
+    height: 168px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.pagNav{
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+}
+.nextPage{
+    right: 40px;
+}
+.prevPage{
+    left: 40px;
+}
+/*==============================
+Chat
+==============================*/
+.chatArea{
+    position: relative;
+    width: 720px;
+    margin: auto;
+    background: #fff;
+    background: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 200;
+    font-size: 18px;
+    font-weight: 600;
+    color: #052e43;
+}
+.messageRight{
+    position: relative;
+    width: 70%;
+    padding-right: 80px;
+    float: right;
+    margin-bottom: 15px;
+}
+.messageLeft{
+    width: 70%;
+    float: left;
+    padding-left: 80px;
+    position: relative;
+    margin-bottom: 15px;
+}
+.messageRight:after{
+    width: 80px;
+    height:  100%;
+    right: 0px;
+    bottom: 0;
+    background: url(../img/tool.png) bottom left no-repeat;
+    position: absolute;
+    content: "";
+}
+.messageLeft:after{
+    width: 80px;
+    height:  100%;
+    left: 0px;
+    bottom: 0;
+    background: url(../img/tool2.png) bottom right no-repeat;
+    position: absolute;
+    content: "";
+}
+.messageRight .chatPerson img,.messageLeft .chatPerson img{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.messageLeft .chatPerson img{
+    right: auto;
+    left: 0;
+}
+.messageRight .chatmsg,.messageLeft .chatmsg{
+    background: #f2e4d1;
+    padding: 20px 15px;
+    border-radius: 8px 8px 0 8px;
+    text-align: center;
+}
+
+.messageLeft .chatmsg{
+    background: #a8bcdd;
+    border-radius: 8px 8px 8px 0;
+}
+.chatWrite textarea{
+    height: 80px;
+    width: 100%;
+    border: 1px solid #7ec7dd;
+    background: #f2f2ed;
+    border-radius: 5px;
+    padding: 10px;
+    -moz-box-shadow:inset 0px 2px 13px rgba(0,0,0,0.1);
+    -webkit-box-shadow:inset 0px 2px 13px rgba(0,0,0,0.1);
+    box-shadow:inset 0px 2px 13px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+.chatWrite .btnLeft,.chatWrite .btnRight{
+    float: left;
+    background: #fcad40;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #779aaa;
+    padding: 10px 20px;
+    font-size: 26px;
+    border-radius: 4px;
+}
+.chatWrite .btnRight{
+    float: right;
+    background: #2b75ec;
+}
+.videoBox{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 130px;
+    background: #fff;
+    z-index: 200;
+}
+.videoBox .activeUser{
+    position: absolute;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 5px;
+}
+.videoBox h4{
+    font-size: 20px;
+    color: #7f0538;
+    text-align: center;
+    margin:0;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 4px;
+    background: #fff;
+}
+
+/*=======================
+Timer
+=========================*/
+.atimer{
+    height: 62px;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 248px;
+    background: url("../img/timer.png") center center no-repeat;
+    padding-left: 50px;
+    z-index: 500;
+}
+.timerTitle{
+    color: #09354c;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50px;
+    top: -5px;
+	font-weight:bold;
+}
+.timeCounter{
+    position: absolute;
+    left: 55px;
+    bottom: 2px;
+    color: #fff;
+    font-size: 30px;
+}
+/*=====================================
+Responsive
+================================*/
+.responsiveMenu{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 200;
+    text-align: right;
+}
+.responsiveMenu .triggerMenu{
+    border: none;
+    background: #78C155;
+    color: #fff;
+    font-size: 30px;
+    width: 60px;
+    height: 50px;
+    padding: 0;
+    line-height: 40px;
+    border-radius: 5px 0 0 5px;
+}
+.responsiveMenu ul{
+    display: block;
+    background: #fff;
+    text-align: left;
+    padding: 5px 0;
+    display: none;
+}
+.active.responsiveMenu ul{
+    display: block;
+}
+.responsiveMenu li{
+    display: block;
+}
+.responsiveMenu li a{
+    padding:10px 25px;
+    color:#00354D;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.responsiveMenu li:last-child a{
+    border:  none;
+}
+
+@media(min-width:1200px){
+    body,html{
+        overflow: hidden;
+        height: 100%;
+    }
+}
+
+@media(max-width:1190px){
+    .homeLinksGrid > a{
+        position: relative;
+        left: auto !important;
+        right: auto !important;
+        top: auto !important;
+        width: 100%;
+        float: none;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .bgCircles{
+        display: none;
+    }
+    .nextPage{
+        right: 30px;
+    }
+    .prevPage{
+        left: 30px;
+    }
+    .tree2{
+        display: none;
+    }
+}
+@media(max-width:992px){
+    .chatArea{
+        width: 70%;
+    }
+    .chatArea{
+        font-size: 14px;
+    }
+    .themenu li a{
+        font-size: 16px;
+        padding:20px 10px; 
+    }
+    .fancyMenu.pageContent{
+        max-width: 768px;
+    }
+    .circularMenu{
+        width: 420px;
+        height: 420px;
+        margin-left: -210px;
+    }
+    .topBlue,.bottomGreen{
+        margin-left: -150px;
+    }
+    .circularMenu a{
+        font-size: 14px;
+    }
+    .prevPage{
+        right: 30px;
+        left: auto;
+        margin-top: 30px;
+    }
+    .circularMenu a.bottomGreen span{
+        bottom: 25px;
+    }
+    .leftYellow{
+        top: 65px;
+    }
+    .rightPink{
+        top: 70px;
+        right: 0;
+    }
+    .topBlue,.bottomGreen{
+        width: 300px;
+        height: auto;
+    }
+    .leftYellow,.rightPink{
+        width: 125px;
+        height: auto;
+    }
+}
+
+@media(max-width:960px){
+    .mesCourse .aCourse{
+        width: 100%;
+        max-width: 300px;
+        float: none;
+        margin:45px auto;
+    }
+    .mesCourse{
+        padding-bottom: 100px;
+    }
+}
+
+@media(max-width:767px){
+    .dashbordPage.pageContent{
+        padding-top: 50px
+    }
+    .videoBox{
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+    }
+    .videoBox h4{
+        font-size: 12px;
+    }
+    .chatArea{
+        width: 70%;
+        margin-right: 0;
+        margin-left: auto;
+        font-size: 12px;
+    }
+    .messageRight,.messageLeft{
+        width: 100%;
+        float: none;
+        padding: 0;
+    }
+    .messageRight .chatmsg, .messageLeft .chatmsg{
+        border-radius: 8px;
+        padding-bottom: 50px;
+    }
+    .messageRight .chatPerson img, .messageLeft .chatPerson img{
+        width: 40px;
+        height: 40px;
+        bottom: -10px;
+        left: auto;
+        right: 5px;
+    }
+    .chatWrite .btnLeft, .chatWrite .btnRight{
+        display: block;
+        margin: 5px auto;
+        width: 100%;
+        float: none;
+    }
+    .headerLinks,.themenu,.suny2{
+        display: none;
+    }
+    .responsiveMenu{
+        display: block;
+    }
+    .circularMenu{
+        height: auto;
+        width: 50%;
+        position: relative;
+        left: auto;
+        top: auto;
+        margin:30px auto
+    }
+    .pagNav{
+        top: 80px;
+    }
+    .circularMenu a span{
+        position: relative !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        top: auto !important;
+        display: block;
+        padding: 15px;
+        transform: translateY(0%) !important;
+        -webkit-transform: translateY(0%) !important;
+        -moz-transform: translateY(0%) !important;
+        -o-transform: translateY(0%) !important;
+        -ms-transform: translateY(0%) !important;
+    }
+    .circularMenu a br{
+        display: none;
+    }
+    .circularMenu a{
+        text-align: center;
+        width: 100% !important;
+        background: #93d3e8;
+        margin: 0 0 10px !important;
+        position: relative !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+        top: auto !important;
+        display: block;
+        height: auto !important;
+    }
+    .circularMenu a.leftYellow{
+        background: #f7c76b;
+    }
+    .circularMenu a.bottomGreen{
+        background: #7ebb43
+    }
+    .circularMenu a.rightPink{
+        background: #e72688
+    }
+    .circularMenu a img{
+        display: none;
+    }
+}
+
+
+@media(max-width:580px){
+    .headerGraphics{
+        display: none;
+    }
+    .logoWrap{
+        left: -130px;
+        text-align: right;
+    }
+    .logo img{
+        max-width: 180px;
+        position: relative;
+        left: -35px;
+        top: -5px;
+        border-radius: 15px;
+    }
+    .homeLinksGrid > a{
+        max-width: 100%;
+        font-size: 25px;
+        height: auto !important;
+        padding: 0 !important;
+    }
+    .homeLinksGrid > a::before{
+        display: none;
+    }
+    body,html{
+        
+        height: 100%;
+    }
+    .astronot {
+        display: none;
+    }
+    .customeField input[type="radio"] + label, .customeField input[type="checkbox"] + label{
+        font-size: 16px;
+    }
+    a.forgotPass{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:480px){
+    .atimer{
+        top: 120px;
+    }
+    .circularMenu a{
+        font-size: 12px;
+    }
+    .circularMenu{
+        width: 35%;
+    }
+    .pagNav{
+        width: 30px;
+    }
+    .circularMenu a br{
+        display: block;
+    }
+}
